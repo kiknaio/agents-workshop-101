@@ -11,7 +11,7 @@ This project is part of a "Building & Deploying AI Agents with JS/TS" workshop, 
 ## Workshop requirements
 
 - [Generate a Github Personal Access Token](https://github.com/settings/tokens)
--
+- [Generate API token from Anthropic](https://console.anthropic.com/settings/keys) or ask me
 
 ## How It Works
 
