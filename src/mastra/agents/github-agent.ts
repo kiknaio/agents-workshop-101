@@ -7,7 +7,7 @@ export const githubAgent = new Agent({
   name: "Github Agent",
   instructions:
     "You're a helpful Github assistant that help user to get information about github repositories",
-  model: anthropic("claude-3-5-sonnet-20241022"),
+  model: anthropic("claude-3-7-sonnet-latest"),
   memory: new Memory({
     storage: new LibSQLStore({
       url: "file:../mastra.db", // path is relative to the .mastra/output directory
