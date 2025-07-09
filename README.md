@@ -2,7 +2,8 @@
 
 This project is part of a "Building & Deploying AI Agents with JS/TS" workshop, demonstrating how to build an AI agent with Mastra.ai that can interact with and answer questions about any GitHub repository.
 
-- You’ll learn how to:
+You'll learn how to:
+
 - Build an AI agent with Mastra
 - Ingest and parse GitHub repo content
 - Enable natural language chat interface
