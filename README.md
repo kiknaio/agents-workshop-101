@@ -14,6 +14,21 @@ You'll learn how to:
 - [Generate a Github Personal Access Token](https://github.com/settings/tokens)
 - [Generate API token from Anthropic](https://console.anthropic.com/settings/keys) or ask me
 
+## How to get started
+
+1. Clone this repository and checkout to `01-initialize-mastra-project` this branch.
+
+```bash
+$ git clone https://github.com/kiknaio/agents-workshop-101.git
+$ git checkout 01-initialize-mastra-project
+```
+
+2. Install required packages
+
+```bash
+$ npm install
+```
+
 ## How It Works
 
 This agent pulls code and documentation from a GitHub repo, chunks and embeds it, then uses an LLM to answer questions conversationally.
