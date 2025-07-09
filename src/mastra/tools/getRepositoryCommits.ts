@@ -3,12 +3,8 @@ import { z } from "zod";
 import { gh } from "../../lib/utils";
 
 const inputSchema = z.object({
-  owner: z
-    .string()
-    .describe("The owner of the repository. As facebook in facebook/react"),
-  repo: z
-    .string()
-    .describe("The name of the repository. As react in facebook/react"),
+  owner: z.string().describe("The owner of the repository."),
+  repo: z.string().describe("The name of the repository."),
 });
 
 const outputSchema = z.union([
