@@ -4,6 +4,7 @@ import { Memory } from "@mastra/memory";
 import { LibSQLStore } from "@mastra/libsql";
 import { getFilePaths } from "../tools/getFilePaths";
 import { getFileContent } from "../tools/getFileContent";
+import { getRepositoryCommits } from "../tools/getRepositoryCommits";
 
 export const githubAgent = new Agent({
   name: "Github Agent",
@@ -18,5 +19,5 @@ export const githubAgent = new Agent({
       url: "file:../mastra.db", // path is relative to the .mastra/output directory
     }),
   }),
-  tools: { getFilePaths, getFileContent },
+  tools: { getFilePaths, getFileContent, getRepositoryCommits },
 });
