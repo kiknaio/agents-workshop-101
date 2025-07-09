@@ -29,7 +29,7 @@ $ git checkout 01-initialize-mastra-project
 $ npm install
 ```
 
-3. You need to obtain Anthropic API key as well as Github personal access token
+3. You need to obtain Anthropic API key as well as [Github personal access token](#how-to-generate-github-personal-access-token)
 
 ## How It Works
 
