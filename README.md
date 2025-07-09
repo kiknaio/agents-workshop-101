@@ -29,6 +29,8 @@ $ git checkout 01-initialize-mastra-project
 $ npm install
 ```
 
+3. You need to obtain Anthropic API key as well as Github personal access token
+
 ## How It Works
 
 This agent pulls code and documentation from a GitHub repo, chunks and embeds it, then uses an LLM to answer questions conversationally.
